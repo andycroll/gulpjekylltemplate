@@ -1,0 +1,22 @@
+title: Site
+email: andy@goodscary.com
+description: ""
+url: "https://github.com/andycroll/gulpjekyll"
+twitter_username: andycroll
+color: "#FFFFFF"
+
+plugins:
+ - jekyll-seo-tag
+
+include:
+  - _redirects
+
+exclude:
+  - gulpfile.js
+  - javascripts/
+  - node_modules/
+  - package.json
+  - package-lock.json
+  - README.md
+  - scss/
+  - yarn.lock
